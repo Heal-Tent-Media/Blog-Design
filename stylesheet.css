@@ -1,4 +1,4 @@
-.blog-header-D {
+.blog-header-D, .blog-body-D {
   padding: 20px 40px 0;
   max-width: 740px !important;
 }
@@ -16,14 +16,14 @@
 }
 
 .blog-title {
-  margin: 0;
+  margin: 0 0 15px;
   padding-top: 32px;
   font-size: 2rem;
   font-weight: 700;
 }
 
 .blog-info {
-  margin: 14px 0;
+  margin: 0 0 5px;
   color: #808080;
   font-size: 14px;
   font-weight: 400;
@@ -38,11 +38,13 @@
 .blog-share {
   display: flex;
   flex-wrap: wrap;
+  margin: 20px 0 20px;
   padding-top: 15px;
   border-top: 0.0625rem solid #e6e6e6;
+  justify-content: center;
 }
 
-.blog-s-it {
+.b-sh-it {
   display: flex;
   width: 100px;
   height: 35px;
@@ -55,13 +57,48 @@
   justify-content: center;
 }
 
-.blog-s-it:hover {
+.b-sh-it:hover {
   cursor: pointer;
   color: #3BB143;
 }
 
-.blog-s-it svg {
+.b-sh-it svg {
   width: 24px;
   height: 24px;
   margin: 0 5px 0 0;
+}
+
+.blog-stat {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 0.0625rem solid #e6e6e6;
+}
+
+.b-st-it {
+  display: block;
+  margin: auto 5%;
+  padding: 15px 0;
+  width: 40%;
+  height: 90px;
+  border: 1px solid #3BB143;
+  border-radius: 10px;
+}
+
+.b-st-ti, .b-st-da {
+  margin: auto;
+  color: #000000;
+  line-height: 30px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.b-st-da {
+  font-weight: 700;
+  color: #3BB143 !important;
 }
